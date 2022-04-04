@@ -1,0 +1,7 @@
+1 zy 10000 OFFICE 1234@qq.com 1234 xxxxx
+2 ef 35134 OFFICE 124135@163.com 675344 hsrht
+3 dczx 165345 PERSONAL 67634@gmail.com 235462 resg
+4 aef 564325 BIZ 643124@163.com 57468 aergtrh
+5 af 745652 BIZ 764324@qq.com 254637 aeggea
+6 egagv 43524 PERSONAL 465243@gmail.com 235635 aghetjsh
+2130505097381390984 abc 123 null qq.com 1234 12
