@@ -1,0 +1,55 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name:evaluator-backend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp18x2ks086oj7n2xho.mysql.rds.aliyuncs.com:3306/evaluator_platform?serverTimeZone=Asia/Shanghai
+    username: wht
+    password: Whthaoshuai12138_
+    jackson:
+      date-format: yyyy-MM-dd
+      time-zone: GMT+8
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  redis:
+    host: 101.34.50.125
+    port: 6379
+    database: 1
+    timeout: 3000
+#    jedis:
+#      pool:
+#        min-idle: 0
+#        max-idle: 8
+#        max-active: 8
+#        max-wait: 2000
+#        time-between-eviction-runs: 1000
+    password:
+#    password: Whthaoshuai12138_
+server:
+  port: 8080
+  servlet:
+    context-path: '/maiqu'
+    session:
+      cookie:
+        domain:
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+
+
+
+
+
